@@ -1,0 +1,13 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    border: 2px solid blueviolet;
+}
+
+.information {
+    border: 2px solid tomato;
+}

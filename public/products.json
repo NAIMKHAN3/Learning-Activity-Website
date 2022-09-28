@@ -1,0 +1,62 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "Study group",
+    "name": "Time To Study Bangla 1'st",
+    "Time required": 25,
+    "stock": 20,
+    "img": "https://schoolreadinglist.co.uk/wp-content/uploads/2021/09/books-for-ks2-ft.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "Study group",
+    "name": "Time To Study English 1'st",
+    "Time required": 15,
+    "stock": 10,
+    "img": "https://mylearningspringboard.com/wp-content/uploads/2012/02/Young-Boy-Reading-in-the-Library.jpg",
+    "shipping": 32,
+    "quantity": 0
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "Study group",
+    "name": "Time To Study Political scince",
+    "Time required": 25,
+    "stock": 11,
+    "img": "https://blog.pearsoninternationalschools.com/wp-content/uploads/2020/01/AL1331618_Original_1800x900-1132x670.jpg",
+    "shipping": 49,
+    "quantity": 0
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "category": "Study group",
+    "name": "Time To Study Accounting",
+    "Time required": 20,
+    "stock": 19,
+    "img": "https://thebrew.ae/wp-content/uploads/2021/09/boy-reading-book.jpg",
+    "shipping": 19,
+    "quantity": 0
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "category": "Study group",
+    "name": "Time To Study English 2nd",
+    "Time required": 30,
+    "stock": 1,
+    "img": "https://previews.123rf.com/images/oksun70/oksun701609/oksun70160900060/64100188-cute-kid-boy-reading-a-book-at-home.jpg",
+    "shipping": 15,
+    "quantity": 0
+  },
+  {
+    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    "category": "Study group",
+    "name": "Time To Study Bangla 2nd",
+    "Time required": 40,
+    "stock": 7,
+    "img": "https://www.thoughtco.com/thmb/5-sMyTXesqJ6TEx9cwfmbNbb7DQ=/3264x3264/smart/filters:no_upscale()/Getty_deep_reading-587879771-56ec4d323df78ce5f834fc56.jpg",
+    "shipping": 50,
+    "quantity": 0
+  }
+]
