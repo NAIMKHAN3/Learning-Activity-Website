@@ -1,0 +1,11 @@
+.card-containar {
+    width: 288px;
+    border: none;
+
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}

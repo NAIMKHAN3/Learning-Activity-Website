@@ -4,8 +4,10 @@
     gap: 10px;
 }
 
-.card {
-    border: 2px solid blueviolet;
+.cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .information {

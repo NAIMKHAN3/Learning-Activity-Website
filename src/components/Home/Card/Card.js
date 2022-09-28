@@ -1,9 +1,18 @@
 import React from 'react';
+import './Card.css'
 
-const Card = () => {
+const Card = (props) => {
+    const { name, img, Time, id } = props.card
     return (
-        <div>
-            <h5>Naim</h5>
+        <div className='card-containar mb-4'>
+            <div className="card card-img">
+                <img src={img} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">{name}</h5>
+                    <h6>Time  required : {Time} min</h6>
+                    <button className='btn btn-primary'>Add to list</button>
+                </div>
+            </div>
         </div>
     );
 };
