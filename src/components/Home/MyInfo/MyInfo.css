@@ -1,0 +1,9 @@
+.info-containar img {
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.info-containar {
+    display: flex;
+}

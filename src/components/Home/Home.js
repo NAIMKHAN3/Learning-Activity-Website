@@ -1,8 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import BreakTime from './BreakTime/BreakTime';
 import Card from './Card/Card';
 import './Home.css';
+import MyInfo from './MyInfo/MyInfo';
 
 const Home = () => {
     const [cards, setCards] = useState([]);
@@ -20,8 +22,10 @@ const Home = () => {
                 }
 
             </div>
-            <div className='information'>
-                <h4>information containar</h4>
+            <div className='information card'>
+                <MyInfo></MyInfo>
+                <BreakTime></BreakTime>
+
             </div>
         </div>
     );
