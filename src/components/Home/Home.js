@@ -5,6 +5,7 @@ import BreakTime from './BreakTime/BreakTime';
 import Card from './Card/Card';
 import './Home.css';
 import MyInfo from './MyInfo/MyInfo';
+import StudyInfo from './StudyInfo/StudyInfo';
 
 const Home = () => {
     const [cards, setCards] = useState([]);
@@ -25,6 +26,7 @@ const Home = () => {
             <div className='information card'>
                 <MyInfo></MyInfo>
                 <BreakTime></BreakTime>
+                <StudyInfo></StudyInfo>
 
             </div>
         </div>
