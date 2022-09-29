@@ -22,8 +22,11 @@ const Home = () => {
     }, [time])
     useEffect(() => {
         const find = localStorage.getItem('Time')
-        const saveCard = find;
-        setBreaks(saveCard);
+        if (find) {
+            const saveCard = find;
+            setBreaks(saveCard);
+        }
+
     }, [])
 
 

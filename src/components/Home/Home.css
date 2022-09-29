@@ -1,4 +1,18 @@
-.home-container {
+@media only screen and (min-width: 768px) {
+    .home-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 10px;
+    }
+
+    .cards {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* .home-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 10px;
@@ -8,7 +22,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 .information {
     border: 2px solid tomato;
