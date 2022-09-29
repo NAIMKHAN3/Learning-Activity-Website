@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 
 const StudyInfo = ({ breaks, time, setTime }) => {
 
@@ -6,6 +7,15 @@ const StudyInfo = ({ breaks, time, setTime }) => {
     for (const times of time) {
         total = total + times.Time;
     }
+    const Toast = () => {
+        Swal.fire(
+            'Congratulation',
+            'You clicked the button!',
+            'success'
+        );
+    }
+
+
     return (
         <div>
             <h4 className='mt-5 mb-4'>Study Details</h4>
@@ -17,7 +27,7 @@ const StudyInfo = ({ breaks, time, setTime }) => {
                 <h6>Break Time</h6>
                 <h6>{breaks}min</h6>
             </div>
-            <button className='btn btn-primary'>Activity Completed</button>
+            <button onClick={Toast} className='btn btn-primary'>Activity Completed</button>
         </div>
     );
 };
