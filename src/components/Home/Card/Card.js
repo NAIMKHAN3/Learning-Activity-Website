@@ -12,7 +12,7 @@ const Card = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <h6>Time  required : {Time} min</h6>
-                    <button onClick={() => { handleMin(Time) }} className='btn btn-primary'>Add to list</button>
+                    <button onClick={() => { handleMin(props.card) }} className='btn btn-primary'>Add to list</button>
                 </div>
             </div>
         </div>

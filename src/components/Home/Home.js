@@ -12,7 +12,7 @@ const Home = () => {
 
     const [cards, setCards] = useState([]);
     const [breaks, setBreaks] = useState(0);
-    const [time, setTime] = useState(0)
+    const [time, setTime] = useState([])
     console.log(time)
 
     useEffect(() => {
@@ -25,11 +25,11 @@ const Home = () => {
     const breakTime = (time) => setBreaks(time);
 
     const handleMin = (num) => {
-        const upTime = [];
-        upTime.push(num)
-        const newTime = [...upTime]
+        console.log(num)
+        const newTime = [...time, num];
         console.log(newTime)
-        setTime(num);
+
+        setTime(newTime);
     }
 
 
