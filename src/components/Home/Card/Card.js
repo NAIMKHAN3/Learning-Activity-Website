@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 
 const Card = (props) => {
-    console.log(props.handleMin)
+
     const { name, img, Time, id } = props.card;
     const { handleMin } = props
     return (
@@ -12,7 +12,7 @@ const Card = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <h6>Time  required : {Time} min</h6>
-                    <button onClick={handleMin} className='btn btn-primary'>Add to list</button>
+                    <button onClick={() => { handleMin(Time) }} className='btn btn-primary'>Add to list</button>
                 </div>
             </div>
         </div>

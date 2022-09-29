@@ -12,7 +12,8 @@ const Home = () => {
 
     const [cards, setCards] = useState([]);
     const [breaks, setBreaks] = useState(0);
-    console.log(breaks)
+    const [time, setTime] = useState(0)
+    console.log(time)
 
     useEffect(() => {
         fetch('products.json')
@@ -23,8 +24,12 @@ const Home = () => {
 
     const breakTime = (time) => setBreaks(time);
 
-    const handleMin = () => {
-        console.log('btnclicked')
+    const handleMin = (num) => {
+        const upTime = [];
+        upTime.push(num)
+        const newTime = [...upTime]
+        console.log(newTime)
+        setTime(num);
     }
 
 
@@ -40,7 +45,7 @@ const Home = () => {
             <div className='information card'>
                 <MyInfo></MyInfo>
                 <BreakTime breakTime={breakTime}></BreakTime>
-                <StudyInfo breaks={breaks}></StudyInfo>
+                <StudyInfo breaks={breaks} time={time} setTime={setTime}></StudyInfo>
 
             </div>
         </div>

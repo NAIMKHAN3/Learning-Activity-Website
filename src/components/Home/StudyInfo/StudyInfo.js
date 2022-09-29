@@ -1,6 +1,10 @@
 import React from 'react';
 
-const StudyInfo = ({ breaks }) => {
+const StudyInfo = ({ breaks, time, setTime }) => {
+    // const newTime = [time];
+    // // newTime.push(time)
+    // const upTime = [...newTime]
+    // console.log(upTime)
     return (
         <div>
             <h4 className='mt-5 mb-4'>Study Details</h4>
