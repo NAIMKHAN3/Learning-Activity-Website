@@ -27,7 +27,7 @@ const StudyInfo = ({ breaks, time, setTime }) => {
                 <h6>Break Time</h6>
                 <h6>{breaks}min</h6>
             </div>
-            <button onClick={Toast} className='btn btn-primary'>Activity Completed</button>
+            <button onClick={Toast} className='btn btn-primary mt-3'>Activity Completed</button>
         </div>
     );
 };
