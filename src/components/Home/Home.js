@@ -13,16 +13,24 @@ const Home = () => {
     const [cards, setCards] = useState([]);
     const [breaks, setBreaks] = useState(0);
     const [time, setTime] = useState([])
-    console.log(time)
+
 
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setCards(data));
+    }, [time])
+    useEffect(() => {
+        const find = localStorage.getItem('Time')
+        const saveCard = find;
+        setBreaks(saveCard);
     }, [])
 
 
-    const breakTime = (time) => setBreaks(time);
+    const breakTime = (time) => {
+        localStorage.setItem('Time', JSON.stringify(time))
+        setBreaks(time)
+    };
 
     const handleMin = (num) => {
         console.log(num)

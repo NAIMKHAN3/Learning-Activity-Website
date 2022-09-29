@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StudyInfo = ({ breaks, time, setTime }) => {
-    console.log(time)
+
     let total = 0;
     for (const times of time) {
         total = total + times.Time;
